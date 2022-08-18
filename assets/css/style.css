@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.relogio{
+    background-color: red;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    height: 20px;
+    margin: 300px;
+    padding: 30px;
+}
