@@ -4,9 +4,24 @@
 .relogio{
     background-color: red;
     display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.box{
+    background-color: yellow;
+    width: 70px;
+    height: 60px;
+    font-size: 50px;
     justify-items: center;
-    justify-content: space-around;
-    height: 20px;
-    margin: 300px;
-    padding: 30px;
+}
+.form {
+    width: 300px;
+    margin: 200px auto;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
 }

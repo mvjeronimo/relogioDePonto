@@ -11,22 +11,27 @@
     <title>Relógio de Ponto</title>
 </head>
 <body>
+    <p>Pônei Corporation</p>
     <div class="relogio">
+        
         <div class="box">
-            <span id="hora">00</span>
-            <span>Hora</span>
+            <span id="hora">00</span>:
+            
         </div>
         <div class="box">
-            <span id="minutos">00</span>
-            <span>Minutos</span>
+            <span id="minutos">00</span>:
+            
         </div>
         <div class="box">
             <span id="segundos">00</span>
-            <span>Segundos</span>
+            
         </div>
     </div>
-    <div>
-        <button onclick="clique()">Marcar Ponto</button>
+    <div class="form">
+        <input type="text" placeholder="Matrícula" id="matricula">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" onclick="marcarPonto()">
+        
     </div>
 </body>
 </html>

@@ -12,9 +12,18 @@ const time = setInterval(() =>{
     
 });
 
-function clique(){
+function marcarPonto(){
     var dataExata = new Date()
     var hora = dataExata.getHours()
     var minuto = dataExata.getMinutes()
-    alert(hora + "horas" + minuto + "minutos");
+    
+    var matricula = document.getElementById('matricula').value;
+    var senha = document.getElementById('senha').value;
+
+    if (matricula == "pc2022" && senha == "pc123"){
+        alert("Ponto registrado com Sucesso às " + hora + ":" + minuto + " ");
+    }else{
+        alert("Matrícula ou senha incorreta");
+    }
 }
+
