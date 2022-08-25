@@ -19,11 +19,16 @@ function marcarPonto(){
     
     var matricula = document.getElementById('matricula').value;
     var senha = document.getElementById('senha').value;
+    
 
     if (matricula == "pc2022" && senha == "pc123"){
+    
         alert("Ponto registrado com Sucesso às " + hora + ":" + minuto + " ");
+        
     }else{
         alert("Matrícula ou senha incorreta");
+        
     }
+    
 }
 

@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="..\css\style.css">
 
     <script src="..\javaScript\script.js"></script>
-    <title>Relógio de Ponto</title>
+    <title>Marcar Ponto - Pônei Corporation</title>
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "..\images\logo_unicorn.png"/>
 </head>
 <body>
-    <p>Pônei Corporation</p>
-    <div class="relogio">
-        
-        <div class="box">
-            <span id="hora">00</span>:
-            
+    
+    
+    <div class="container">
+        <p>Pônei Corporation</p>
+        <img src="..\images\logo_unicorn.png">
+
+        <div class="relogio">
+            <div class="box">
+                <span id="hora">00</span>:
+            </div>
+            <div class="box">
+                <span id="minutos">00</span>:
+            </div>
+            <div class="box">
+                <span id="segundos">00</span>
+            </div>
         </div>
-        <div class="box">
-            <span id="minutos">00</span>:
-            
+        <div class="form">
+            <p>Marcar Ponto</p>
+            <input type="text" placeholder="Matrícula" id="matricula">
+            <input type="password" placeholder="Senha" id="senha">
+            <input type="submit" onclick="marcarPonto()">
         </div>
-        <div class="box">
-            <span id="segundos">00</span>
-            
-        </div>
-    </div>
-    <div class="form">
-        <input type="text" placeholder="Matrícula" id="matricula">
-        <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" onclick="marcarPonto()">
-        
     </div>
 </body>
 </html>
