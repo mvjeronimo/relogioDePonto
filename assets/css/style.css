@@ -1,8 +1,7 @@
-*{
-    margin: 0;
-}
+
 body{
-    background: linear-gradient(#AEDDE3, #F7BFCA, #FCFA96, #D7B1D7, #AEDDE3);
+    background: linear-gradient(to right, #AEDDE3, #F7BFCA, #FCFA96, #D7B1D7, #AEDDE3);
+    
 }
 img {
     width: 100px;
@@ -12,7 +11,7 @@ img {
     padding-bottom: 20px;
 }
 p{
-    padding-top: 10px;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-align: center;
@@ -23,12 +22,14 @@ p{
 .container{
     background-color: white;
     border-radius: 10px;
+    border-style: groove ;
     margin: auto;
     width: 300px;
 }
 .relogio{
-    font-family: 'Roboto', sans-serif;;
-    background: linear-gradient(#FCFA96, #FFFFFF, #FCFA96);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background:black;
     display: flex;
     justify-content: center;
     
